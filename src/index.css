@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-dashboard-bg: white;
+    --color-dashboard-text: black;
+}
+
+.dark {
+    --color-dashboard-bg: #0f172a;
+    /* slate-900 */
+    --color-dashboard-text: white;
+}

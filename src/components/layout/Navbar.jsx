@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
-import { Sun,BellDot, CircleUserRound } from 'lucide-react'
+import { Sun, BellDot, CircleUserRound } from 'lucide-react'
 
 const Navbar = () => {
   return (
